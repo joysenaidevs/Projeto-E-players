@@ -37,7 +37,7 @@ body{
     height: 100%;
     max-width: 75em;
     margin: auto;
-   */background-color: burlywood;
+   /*background-color: burlywood;*/
 
 }
 
@@ -69,6 +69,7 @@ body{
     text-decoration: none;
     font-size: 1.5em;
     padding: 1,31 1em ;
+    text-transform: uppercase;
    
    
 }
@@ -80,10 +81,65 @@ body{
 #menu-bars{
     display: none;
 }
-.banner img{
-    width: 80%;
+.banner{
+    width: 100%;
+    position: relative;
+ 
 }
+.banner-position{
+    width: 100%;
+    height: 37.5em;
+    position: absolute;
+    top: 0;
 
+}
+.banner-content{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+
+
+}
+.banner-text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  
+}
+.banner-text h1{
+    font-size: 4.62em;
+    color:white;
+}
+.banner-text p{
+    font-size: 1.50em;
+}
+.banner-text a{
+    font-size: 1.50em;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: var(--red);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    color: white;
+
+    
+}
+.jogos{
+    width: 100%;
+    height: 7.5em;
+    background-color: yellowgreen;
+
+}
+.jogos ul{
+    list-style-type: none;
+}
 @media screen and (max-width: 74.93em){
 
 }
