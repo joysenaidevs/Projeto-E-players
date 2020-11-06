@@ -60,7 +60,7 @@
                     <li><a href="#"><img src="img/Counter-Strike-Logo-Transparent-PNG 1.png"
                                 alt="Logo do Counter-Strike-Logo-Transparent-PNG"></a></li>
                     <li><a href="#"><img src="img/4bcd537b6c034e297f0030cf08887426 1.png" alt="Logo Valorante"></a></li>
-                    <li><a href="#"><img src="img/800px-FIFA_series_logo 1.png" alt=""></a></li>
+                    <li class="desktop_only"><a href="#"><img src="img/800px-FIFA_series_logo 1.png" alt=""></a></li>
                 </ul>
             </div>
         </section>
@@ -76,18 +76,22 @@
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil culpa ratione nobis placeat?
                             Magnam earum officia error illo sunt fugit commodi iusto libero architecto, delectus soluta.
                             Nesciunt asperiores dolores accusantium?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deleniti impedit blanditiis?
+                        <p class="desktop_only2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deleniti impedit blanditiis?
                             Odit ullam nemo nesciunt earum eveniet sint molestiae temporibus similique eligendi,
                             asperiores, tenetur unde assumenda fugit deleniti. Officia!</p>
                     </div>
-                    <img src="img/league-of-legends-champions-png 1.png" alt="heroi do League of legends">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="img/índice.jpg">
+                        <img src="img/league-of-legends-champions-png 1.png" alt="heroi do League of legends">
+
+                    </picture>
                 </div>
             </div>
         </section>
 
         <section class="jogos">
             <div class="content flex-center-bt">
-                <div class="jogos-aovivo flex-center-bt">
+                <div class="jogos-aovivo flex-center-bt desktop_only">
                     <h2>Ao <br> vivo</h2>
                     <div class="partidas">
                         <div class="time1">
@@ -129,7 +133,7 @@
                         <p>VS</p>
                         <div class="time2">
                             <img src="img/FLA 1.png" alt="Logo do flamengo">
-                            <p>FURIA</p>
+                            <p>Furia</p>
                         </div>
                     </div>
                 </div>
@@ -164,13 +168,13 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique nulla dicta quas saepe. Quam dolorem a eum quod, iste ipsa, et doloremque, quidem nisi voluptatum voluptas quos explicabo alias accusamus.</p>
                     </div><!--fim do card-->
                     
-                    <div class="card">
+                    <div class="card desktop_only">
                         <img src="img/T1 1.png" alt="jogadora profissional">
                         <h3>Titulo da noticia</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique nulla dicta quas saepe. Quam dolorem a eum quod, iste ipsa, et doloremque, quidem nisi voluptatum voluptas quos explicabo alias accusamus.</p>
                     </div><!--fim do card--> 
 
-                    <div class="card">
+                    <div class="card desktop_only">
                         <img src="img/T1 1.png" alt="jogadora profissional">
                         <h3>Titulo da noticia</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique nulla dicta quas saepe. Quam dolorem a eum quod, iste ipsa, et doloremque, quidem nisi voluptatum voluptas quos explicabo alias accusamus.</p>
@@ -179,13 +183,12 @@
                   
                 </section>
             <aside class="proximos-jogos">
-                    <h2>Proximos Jogos</h2>
-                    <div class="proximas-partidas">
+                    <h2 class="desktop_only2">Proximos Jogos</h2>
+                    <div class="proximas-partidas desktop_only2">
                         <div class="game">
                             <div class="time">
                             <div>
                                 <p>SK</p>
-                            <div>
                                 <img src="img/SK 1.png" alt="logo do Sk">
                             </div>  
                                 <p>VS</p>
@@ -298,7 +301,7 @@
                 
             </nav>
         </div>  <!--links footer-->
-        <img class="logo-rodape" src="img/Logo 1.svg" alt="Logo E-players">
+        <img class="logo-rodape desktop_only" src="img/Logo 1.svg" alt="Logo E-players">
         <div class="sociais">
             <div class="newslatter">
                 <h2>Faça parte do nosso clã, receba notícias e promoções</h2>
@@ -309,9 +312,9 @@
             </div>
             <div class="siga-nos flex-center-bt">
                 <h2>Siga-nos em:</h2>
-                <a href=""><img src="" alt="I"></a> <!--colocar link do meu instagram e a imagem dos logos-->
-                <a href=""><img src="" alt="F"></a>
-                <a href=""><img src="" alt="Y"></a>
+                <a href=""><img src="img/face.png" alt="I"></a> <!--colocar link do meu instagram e a imagem dos logos-->
+                <a href=""><img src="img/youtube.png" alt="F"></a>
+                <a href=""><img src="img/insta.png" alt="Y"></a>
 
             </div>
         </div> <!--fim sociais-->

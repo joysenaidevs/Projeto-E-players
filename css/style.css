@@ -263,12 +263,12 @@ margin-left: 0.5em;
     margin-left: 1.2em;
     text-transform: uppercase;
     color: #fff;
-    font-size: 2em;
+    /*font-size: 2em;*/
 
 }
 .proximos-jogos{  
     width: 25%;
-    height: auto;
+    height:auto;
     background-color: black;
     
 }
@@ -298,16 +298,17 @@ margin-left: 0.5em;
 .proximas-partidas{
     width: 100%;
     background: var(--gradient);
-    height: 750px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .game{
-    width: 90%;
-    height: auto;
+    width: 100%;
+    height: 70%;
     display: flex;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
     color: #fff;
@@ -388,7 +389,7 @@ margin-left: 0.5em;
 }
 .newslatter input[type="submit"]{
     width: 9.75em;
-    height: 2.5em;
+    height: auto;
     font-size: 1.1em;
     background-color: #8326EF;
     color: #fff;
@@ -405,11 +406,55 @@ margin-left: 0.5em;
     color: #fff;
     height: 880px;
 }
+/*até 1199*/
 @media screen and (max-width: 74.93em){
+    .topo .flex-center-bt{
+        width: 100%;
+        height: 5em;
+        flex-direction: column;
+    }
+    .topo img{
+        max-width: 17em;
+    }
+    .banner-text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding-top: 17em;
+    }
+    .desktop_only{
+        display: none;
+    }
+    .about-text{
+        width: 100%;
+    }
+    .about-position img{
+        max-width: 31.87em;
+        padding: 2em;
+    }
+    .sociais{
+        width: auto;
+    }
+ 
+}
+/*até 991*/
+@media screen and (max-width: 61.9375em){
+    .desktop_only2{
+        display: none;
+    }
+    .about-text{
+        width: auto;
+    }
+    .about-text h2{
+        font-size: 25px;
+    }
+    
 
 }
-@media screen and (max-width: 47.93em){
-
-}
+/*até 768*/
 @media screen and (max-width: 35.93em){
 }
